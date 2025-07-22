@@ -23,10 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "com.creativemind.open_apps_settings"
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
     }
     lintOptions {
         disable 'InvalidPackage'
